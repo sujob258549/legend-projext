@@ -10,6 +10,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- tailwind and daisy ui -->
 
@@ -136,10 +140,10 @@
 
 
             <div class="banner space-y-3 lg:max-w-[660px] m-auto md:max-w-[550px]">
-                <h1
-                    class="px-5 eb-gramon text-2xl md:text-4xl  font-extrabold lg:leading-[80px] text-center">
+                <h1 class="px-5 eb-gramon text-2xl md:text-4xl  font-extrabold lg:leading-[80px] text-center">
                     The Legal Practice Area</h1>
-                <p class=" px-5 text-base text-center ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <p class=" px-5 text-base text-center ">There are many variations of passages of Lorem Ipsum available,
+                    but the majority have suffered alteration in some form, by injected humour.</p>
             </div>
             <!-- card -->
 
@@ -148,149 +152,383 @@
                 <div class="card  bg-base-100 shadow-xl text-center space-y-5 py-10 ">
                     <figure><img src="./images/business.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="font-extrabold text-3xl eb-gramon text-center">Business Law</h2>
-                      <p class="text-base py-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                      <div class="card-actions justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20 4.0929C11.025 4.0929 3.75 11.3679 3.75 20.3429C3.75 29.3179 11.025 36.5929 20 36.5929C28.975 36.5929 36.25 29.3179 36.25 20.3429C36.25 11.3679 28.975 4.0929 20 4.0929ZM27.1333 21.2262C27.3674 20.9919 27.4989 20.6741 27.4989 20.3429C27.4989 20.0116 27.3674 19.6939 27.1333 19.4596L22.1333 14.4596C22.0189 14.3368 21.8809 14.2382 21.7276 14.1699C21.5742 14.1016 21.4087 14.0649 21.2409 14.0619C21.073 14.0589 20.9063 14.0898 20.7507 14.1527C20.595 14.2156 20.4536 14.3091 20.3349 14.4278C20.2162 14.5465 20.1227 14.6879 20.0598 14.8436C19.9969 14.9992 19.9661 15.1659 19.969 15.3338C19.972 15.5016 20.0087 15.6671 20.077 15.8205C20.1454 15.9738 20.2439 16.1118 20.3667 16.2262L23.2333 19.0929H13.75C13.4185 19.0929 13.1005 19.2246 12.8661 19.459C12.6317 19.6934 12.5 20.0114 12.5 20.3429C12.5 20.6744 12.6317 20.9924 12.8661 21.2268C13.1005 21.4612 13.4185 21.5929 13.75 21.5929H23.2333L20.3667 24.4596C20.2439 24.574 20.1454 24.712 20.077 24.8653C20.0087 25.0187 19.972 25.1842 19.969 25.352C19.9661 25.5199 19.9969 25.6866 20.0598 25.8422C20.1227 25.9979 20.2162 26.1393 20.3349 26.258C20.4536 26.3767 20.595 26.4702 20.7507 26.5331C20.9063 26.596 21.073 26.6268 21.2409 26.6239C21.4087 26.6209 21.5742 26.5842 21.7276 26.5159C21.8809 26.4475 22.0189 26.349 22.1333 26.2262L27.1333 21.2262Z" fill="#B68C5A"/>
-                          </svg>
-                          
-                      </div>
+                        <h2 class="font-extrabold text-3xl eb-gramon text-center">Business Law</h2>
+                        <p class="text-base py-5">There are many variations of passages of Lorem Ipsum available, but
+                            the majority have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M20 4.0929C11.025 4.0929 3.75 11.3679 3.75 20.3429C3.75 29.3179 11.025 36.5929 20 36.5929C28.975 36.5929 36.25 29.3179 36.25 20.3429C36.25 11.3679 28.975 4.0929 20 4.0929ZM27.1333 21.2262C27.3674 20.9919 27.4989 20.6741 27.4989 20.3429C27.4989 20.0116 27.3674 19.6939 27.1333 19.4596L22.1333 14.4596C22.0189 14.3368 21.8809 14.2382 21.7276 14.1699C21.5742 14.1016 21.4087 14.0649 21.2409 14.0619C21.073 14.0589 20.9063 14.0898 20.7507 14.1527C20.595 14.2156 20.4536 14.3091 20.3349 14.4278C20.2162 14.5465 20.1227 14.6879 20.0598 14.8436C19.9969 14.9992 19.9661 15.1659 19.969 15.3338C19.972 15.5016 20.0087 15.6671 20.077 15.8205C20.1454 15.9738 20.2439 16.1118 20.3667 16.2262L23.2333 19.0929H13.75C13.4185 19.0929 13.1005 19.2246 12.8661 19.459C12.6317 19.6934 12.5 20.0114 12.5 20.3429C12.5 20.6744 12.6317 20.9924 12.8661 21.2268C13.1005 21.4612 13.4185 21.5929 13.75 21.5929H23.2333L20.3667 24.4596C20.2439 24.574 20.1454 24.712 20.077 24.8653C20.0087 25.0187 19.972 25.1842 19.969 25.352C19.9661 25.5199 19.9969 25.6866 20.0598 25.8422C20.1227 25.9979 20.2162 26.1393 20.3349 26.258C20.4536 26.3767 20.595 26.4702 20.7507 26.5331C20.9063 26.596 21.073 26.6268 21.2409 26.6239C21.4087 26.6209 21.5742 26.5842 21.7276 26.5159C21.8809 26.4475 22.0189 26.349 22.1333 26.2262L27.1333 21.2262Z"
+                                    fill="#B68C5A" />
+                            </svg>
+
+                        </div>
                     </div>
-                  </div>
-                    <!-- card -->
+                </div>
+                <!-- card -->
                 <div class="card  bg-base-100 shadow-xl text-center space-y-5  py-10">
                     <figure><img src="./images/criminal.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="font-extrabold text-3xl eb-gramon text-center">Criminal Law</h2>
-                      <p class="text-base py-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                      <div class="card-actions justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20 4.0929C11.025 4.0929 3.75 11.3679 3.75 20.3429C3.75 29.3179 11.025 36.5929 20 36.5929C28.975 36.5929 36.25 29.3179 36.25 20.3429C36.25 11.3679 28.975 4.0929 20 4.0929ZM27.1333 21.2262C27.3674 20.9919 27.4989 20.6741 27.4989 20.3429C27.4989 20.0116 27.3674 19.6939 27.1333 19.4596L22.1333 14.4596C22.0189 14.3368 21.8809 14.2382 21.7276 14.1699C21.5742 14.1016 21.4087 14.0649 21.2409 14.0619C21.073 14.0589 20.9063 14.0898 20.7507 14.1527C20.595 14.2156 20.4536 14.3091 20.3349 14.4278C20.2162 14.5465 20.1227 14.6879 20.0598 14.8436C19.9969 14.9992 19.9661 15.1659 19.969 15.3338C19.972 15.5016 20.0087 15.6671 20.077 15.8205C20.1454 15.9738 20.2439 16.1118 20.3667 16.2262L23.2333 19.0929H13.75C13.4185 19.0929 13.1005 19.2246 12.8661 19.459C12.6317 19.6934 12.5 20.0114 12.5 20.3429C12.5 20.6744 12.6317 20.9924 12.8661 21.2268C13.1005 21.4612 13.4185 21.5929 13.75 21.5929H23.2333L20.3667 24.4596C20.2439 24.574 20.1454 24.712 20.077 24.8653C20.0087 25.0187 19.972 25.1842 19.969 25.352C19.9661 25.5199 19.9969 25.6866 20.0598 25.8422C20.1227 25.9979 20.2162 26.1393 20.3349 26.258C20.4536 26.3767 20.595 26.4702 20.7507 26.5331C20.9063 26.596 21.073 26.6268 21.2409 26.6239C21.4087 26.6209 21.5742 26.5842 21.7276 26.5159C21.8809 26.4475 22.0189 26.349 22.1333 26.2262L27.1333 21.2262Z" fill="#B68C5A"/>
-                          </svg>
-                          
-                      </div>
+                        <h2 class="font-extrabold text-3xl eb-gramon text-center">Criminal Law</h2>
+                        <p class="text-base py-5">There are many variations of passages of Lorem Ipsum available, but
+                            the majority have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M20 4.0929C11.025 4.0929 3.75 11.3679 3.75 20.3429C3.75 29.3179 11.025 36.5929 20 36.5929C28.975 36.5929 36.25 29.3179 36.25 20.3429C36.25 11.3679 28.975 4.0929 20 4.0929ZM27.1333 21.2262C27.3674 20.9919 27.4989 20.6741 27.4989 20.3429C27.4989 20.0116 27.3674 19.6939 27.1333 19.4596L22.1333 14.4596C22.0189 14.3368 21.8809 14.2382 21.7276 14.1699C21.5742 14.1016 21.4087 14.0649 21.2409 14.0619C21.073 14.0589 20.9063 14.0898 20.7507 14.1527C20.595 14.2156 20.4536 14.3091 20.3349 14.4278C20.2162 14.5465 20.1227 14.6879 20.0598 14.8436C19.9969 14.9992 19.9661 15.1659 19.969 15.3338C19.972 15.5016 20.0087 15.6671 20.077 15.8205C20.1454 15.9738 20.2439 16.1118 20.3667 16.2262L23.2333 19.0929H13.75C13.4185 19.0929 13.1005 19.2246 12.8661 19.459C12.6317 19.6934 12.5 20.0114 12.5 20.3429C12.5 20.6744 12.6317 20.9924 12.8661 21.2268C13.1005 21.4612 13.4185 21.5929 13.75 21.5929H23.2333L20.3667 24.4596C20.2439 24.574 20.1454 24.712 20.077 24.8653C20.0087 25.0187 19.972 25.1842 19.969 25.352C19.9661 25.5199 19.9969 25.6866 20.0598 25.8422C20.1227 25.9979 20.2162 26.1393 20.3349 26.258C20.4536 26.3767 20.595 26.4702 20.7507 26.5331C20.9063 26.596 21.073 26.6268 21.2409 26.6239C21.4087 26.6209 21.5742 26.5842 21.7276 26.5159C21.8809 26.4475 22.0189 26.349 22.1333 26.2262L27.1333 21.2262Z"
+                                    fill="#B68C5A" />
+                            </svg>
+
+                        </div>
                     </div>
-                  </div>
-                    <!-- card -->
+                </div>
+                <!-- card -->
                 <div class="card  bg-base-100 shadow-xl text-center space-y-5  py-10">
                     <figure><img src="./images/child.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="font-extrabold text-3xl eb-gramon text-center">Education Law</h2>
-                      <p class="text-base py-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                      <div class="card-actions justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20 4.0929C11.025 4.0929 3.75 11.3679 3.75 20.3429C3.75 29.3179 11.025 36.5929 20 36.5929C28.975 36.5929 36.25 29.3179 36.25 20.3429C36.25 11.3679 28.975 4.0929 20 4.0929ZM27.1333 21.2262C27.3674 20.9919 27.4989 20.6741 27.4989 20.3429C27.4989 20.0116 27.3674 19.6939 27.1333 19.4596L22.1333 14.4596C22.0189 14.3368 21.8809 14.2382 21.7276 14.1699C21.5742 14.1016 21.4087 14.0649 21.2409 14.0619C21.073 14.0589 20.9063 14.0898 20.7507 14.1527C20.595 14.2156 20.4536 14.3091 20.3349 14.4278C20.2162 14.5465 20.1227 14.6879 20.0598 14.8436C19.9969 14.9992 19.9661 15.1659 19.969 15.3338C19.972 15.5016 20.0087 15.6671 20.077 15.8205C20.1454 15.9738 20.2439 16.1118 20.3667 16.2262L23.2333 19.0929H13.75C13.4185 19.0929 13.1005 19.2246 12.8661 19.459C12.6317 19.6934 12.5 20.0114 12.5 20.3429C12.5 20.6744 12.6317 20.9924 12.8661 21.2268C13.1005 21.4612 13.4185 21.5929 13.75 21.5929H23.2333L20.3667 24.4596C20.2439 24.574 20.1454 24.712 20.077 24.8653C20.0087 25.0187 19.972 25.1842 19.969 25.352C19.9661 25.5199 19.9969 25.6866 20.0598 25.8422C20.1227 25.9979 20.2162 26.1393 20.3349 26.258C20.4536 26.3767 20.595 26.4702 20.7507 26.5331C20.9063 26.596 21.073 26.6268 21.2409 26.6239C21.4087 26.6209 21.5742 26.5842 21.7276 26.5159C21.8809 26.4475 22.0189 26.349 22.1333 26.2262L27.1333 21.2262Z" fill="#B68C5A"/>
-                          </svg>
-                          
-                      </div>
+                        <h2 class="font-extrabold text-3xl eb-gramon text-center">Education Law</h2>
+                        <p class="text-base py-5">There are many variations of passages of Lorem Ipsum available, but
+                            the majority have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M20 4.0929C11.025 4.0929 3.75 11.3679 3.75 20.3429C3.75 29.3179 11.025 36.5929 20 36.5929C28.975 36.5929 36.25 29.3179 36.25 20.3429C36.25 11.3679 28.975 4.0929 20 4.0929ZM27.1333 21.2262C27.3674 20.9919 27.4989 20.6741 27.4989 20.3429C27.4989 20.0116 27.3674 19.6939 27.1333 19.4596L22.1333 14.4596C22.0189 14.3368 21.8809 14.2382 21.7276 14.1699C21.5742 14.1016 21.4087 14.0649 21.2409 14.0619C21.073 14.0589 20.9063 14.0898 20.7507 14.1527C20.595 14.2156 20.4536 14.3091 20.3349 14.4278C20.2162 14.5465 20.1227 14.6879 20.0598 14.8436C19.9969 14.9992 19.9661 15.1659 19.969 15.3338C19.972 15.5016 20.0087 15.6671 20.077 15.8205C20.1454 15.9738 20.2439 16.1118 20.3667 16.2262L23.2333 19.0929H13.75C13.4185 19.0929 13.1005 19.2246 12.8661 19.459C12.6317 19.6934 12.5 20.0114 12.5 20.3429C12.5 20.6744 12.6317 20.9924 12.8661 21.2268C13.1005 21.4612 13.4185 21.5929 13.75 21.5929H23.2333L20.3667 24.4596C20.2439 24.574 20.1454 24.712 20.077 24.8653C20.0087 25.0187 19.972 25.1842 19.969 25.352C19.9661 25.5199 19.9969 25.6866 20.0598 25.8422C20.1227 25.9979 20.2162 26.1393 20.3349 26.258C20.4536 26.3767 20.595 26.4702 20.7507 26.5331C20.9063 26.596 21.073 26.6268 21.2409 26.6239C21.4087 26.6209 21.5742 26.5842 21.7276 26.5159C21.8809 26.4475 22.0189 26.349 22.1333 26.2262L27.1333 21.2262Z"
+                                    fill="#B68C5A" />
+                            </svg>
+
+                        </div>
                     </div>
-                  </div>
-                    <!-- card -->
+                </div>
+                <!-- card -->
                 <div class="card  bg-base-100 shadow-xl text-center space-y-5  py-10">
                     <figure><img src="./images/education.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="font-extrabold text-3xl eb-gramon text-center">Child Support</h2>
-                      <p class="text-base py-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                      <div class="card-actions justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20 4.0929C11.025 4.0929 3.75 11.3679 3.75 20.3429C3.75 29.3179 11.025 36.5929 20 36.5929C28.975 36.5929 36.25 29.3179 36.25 20.3429C36.25 11.3679 28.975 4.0929 20 4.0929ZM27.1333 21.2262C27.3674 20.9919 27.4989 20.6741 27.4989 20.3429C27.4989 20.0116 27.3674 19.6939 27.1333 19.4596L22.1333 14.4596C22.0189 14.3368 21.8809 14.2382 21.7276 14.1699C21.5742 14.1016 21.4087 14.0649 21.2409 14.0619C21.073 14.0589 20.9063 14.0898 20.7507 14.1527C20.595 14.2156 20.4536 14.3091 20.3349 14.4278C20.2162 14.5465 20.1227 14.6879 20.0598 14.8436C19.9969 14.9992 19.9661 15.1659 19.969 15.3338C19.972 15.5016 20.0087 15.6671 20.077 15.8205C20.1454 15.9738 20.2439 16.1118 20.3667 16.2262L23.2333 19.0929H13.75C13.4185 19.0929 13.1005 19.2246 12.8661 19.459C12.6317 19.6934 12.5 20.0114 12.5 20.3429C12.5 20.6744 12.6317 20.9924 12.8661 21.2268C13.1005 21.4612 13.4185 21.5929 13.75 21.5929H23.2333L20.3667 24.4596C20.2439 24.574 20.1454 24.712 20.077 24.8653C20.0087 25.0187 19.972 25.1842 19.969 25.352C19.9661 25.5199 19.9969 25.6866 20.0598 25.8422C20.1227 25.9979 20.2162 26.1393 20.3349 26.258C20.4536 26.3767 20.595 26.4702 20.7507 26.5331C20.9063 26.596 21.073 26.6268 21.2409 26.6239C21.4087 26.6209 21.5742 26.5842 21.7276 26.5159C21.8809 26.4475 22.0189 26.349 22.1333 26.2262L27.1333 21.2262Z" fill="#B68C5A"/>
-                          </svg>
-                          
-                      </div>
+                        <h2 class="font-extrabold text-3xl eb-gramon text-center">Child Support</h2>
+                        <p class="text-base py-5">There are many variations of passages of Lorem Ipsum available, but
+                            the majority have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M20 4.0929C11.025 4.0929 3.75 11.3679 3.75 20.3429C3.75 29.3179 11.025 36.5929 20 36.5929C28.975 36.5929 36.25 29.3179 36.25 20.3429C36.25 11.3679 28.975 4.0929 20 4.0929ZM27.1333 21.2262C27.3674 20.9919 27.4989 20.6741 27.4989 20.3429C27.4989 20.0116 27.3674 19.6939 27.1333 19.4596L22.1333 14.4596C22.0189 14.3368 21.8809 14.2382 21.7276 14.1699C21.5742 14.1016 21.4087 14.0649 21.2409 14.0619C21.073 14.0589 20.9063 14.0898 20.7507 14.1527C20.595 14.2156 20.4536 14.3091 20.3349 14.4278C20.2162 14.5465 20.1227 14.6879 20.0598 14.8436C19.9969 14.9992 19.9661 15.1659 19.969 15.3338C19.972 15.5016 20.0087 15.6671 20.077 15.8205C20.1454 15.9738 20.2439 16.1118 20.3667 16.2262L23.2333 19.0929H13.75C13.4185 19.0929 13.1005 19.2246 12.8661 19.459C12.6317 19.6934 12.5 20.0114 12.5 20.3429C12.5 20.6744 12.6317 20.9924 12.8661 21.2268C13.1005 21.4612 13.4185 21.5929 13.75 21.5929H23.2333L20.3667 24.4596C20.2439 24.574 20.1454 24.712 20.077 24.8653C20.0087 25.0187 19.972 25.1842 19.969 25.352C19.9661 25.5199 19.9969 25.6866 20.0598 25.8422C20.1227 25.9979 20.2162 26.1393 20.3349 26.258C20.4536 26.3767 20.595 26.4702 20.7507 26.5331C20.9063 26.596 21.073 26.6268 21.2409 26.6239C21.4087 26.6209 21.5742 26.5842 21.7276 26.5159C21.8809 26.4475 22.0189 26.349 22.1333 26.2262L27.1333 21.2262Z"
+                                    fill="#B68C5A" />
+                            </svg>
+
+                        </div>
                     </div>
-                  </div>
-                    <!-- card -->
+                </div>
+                <!-- card -->
                 <div class="card  bg-base-100 shadow-xl text-center space-y-5  py-10">
                     <figure><img src="./images/divorce.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="font-extrabold text-3xl eb-gramon text-center">Divorce Law</h2>
-                      <p class="text-base py-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                      <div class="card-actions justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20 4.0929C11.025 4.0929 3.75 11.3679 3.75 20.3429C3.75 29.3179 11.025 36.5929 20 36.5929C28.975 36.5929 36.25 29.3179 36.25 20.3429C36.25 11.3679 28.975 4.0929 20 4.0929ZM27.1333 21.2262C27.3674 20.9919 27.4989 20.6741 27.4989 20.3429C27.4989 20.0116 27.3674 19.6939 27.1333 19.4596L22.1333 14.4596C22.0189 14.3368 21.8809 14.2382 21.7276 14.1699C21.5742 14.1016 21.4087 14.0649 21.2409 14.0619C21.073 14.0589 20.9063 14.0898 20.7507 14.1527C20.595 14.2156 20.4536 14.3091 20.3349 14.4278C20.2162 14.5465 20.1227 14.6879 20.0598 14.8436C19.9969 14.9992 19.9661 15.1659 19.969 15.3338C19.972 15.5016 20.0087 15.6671 20.077 15.8205C20.1454 15.9738 20.2439 16.1118 20.3667 16.2262L23.2333 19.0929H13.75C13.4185 19.0929 13.1005 19.2246 12.8661 19.459C12.6317 19.6934 12.5 20.0114 12.5 20.3429C12.5 20.6744 12.6317 20.9924 12.8661 21.2268C13.1005 21.4612 13.4185 21.5929 13.75 21.5929H23.2333L20.3667 24.4596C20.2439 24.574 20.1454 24.712 20.077 24.8653C20.0087 25.0187 19.972 25.1842 19.969 25.352C19.9661 25.5199 19.9969 25.6866 20.0598 25.8422C20.1227 25.9979 20.2162 26.1393 20.3349 26.258C20.4536 26.3767 20.595 26.4702 20.7507 26.5331C20.9063 26.596 21.073 26.6268 21.2409 26.6239C21.4087 26.6209 21.5742 26.5842 21.7276 26.5159C21.8809 26.4475 22.0189 26.349 22.1333 26.2262L27.1333 21.2262Z" fill="#B68C5A"/>
-                          </svg>
-                          
-                      </div>
+                        <h2 class="font-extrabold text-3xl eb-gramon text-center">Divorce Law</h2>
+                        <p class="text-base py-5">There are many variations of passages of Lorem Ipsum available, but
+                            the majority have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M20 4.0929C11.025 4.0929 3.75 11.3679 3.75 20.3429C3.75 29.3179 11.025 36.5929 20 36.5929C28.975 36.5929 36.25 29.3179 36.25 20.3429C36.25 11.3679 28.975 4.0929 20 4.0929ZM27.1333 21.2262C27.3674 20.9919 27.4989 20.6741 27.4989 20.3429C27.4989 20.0116 27.3674 19.6939 27.1333 19.4596L22.1333 14.4596C22.0189 14.3368 21.8809 14.2382 21.7276 14.1699C21.5742 14.1016 21.4087 14.0649 21.2409 14.0619C21.073 14.0589 20.9063 14.0898 20.7507 14.1527C20.595 14.2156 20.4536 14.3091 20.3349 14.4278C20.2162 14.5465 20.1227 14.6879 20.0598 14.8436C19.9969 14.9992 19.9661 15.1659 19.969 15.3338C19.972 15.5016 20.0087 15.6671 20.077 15.8205C20.1454 15.9738 20.2439 16.1118 20.3667 16.2262L23.2333 19.0929H13.75C13.4185 19.0929 13.1005 19.2246 12.8661 19.459C12.6317 19.6934 12.5 20.0114 12.5 20.3429C12.5 20.6744 12.6317 20.9924 12.8661 21.2268C13.1005 21.4612 13.4185 21.5929 13.75 21.5929H23.2333L20.3667 24.4596C20.2439 24.574 20.1454 24.712 20.077 24.8653C20.0087 25.0187 19.972 25.1842 19.969 25.352C19.9661 25.5199 19.9969 25.6866 20.0598 25.8422C20.1227 25.9979 20.2162 26.1393 20.3349 26.258C20.4536 26.3767 20.595 26.4702 20.7507 26.5331C20.9063 26.596 21.073 26.6268 21.2409 26.6239C21.4087 26.6209 21.5742 26.5842 21.7276 26.5159C21.8809 26.4475 22.0189 26.349 22.1333 26.2262L27.1333 21.2262Z"
+                                    fill="#B68C5A" />
+                            </svg>
+
+                        </div>
                     </div>
-                  </div>
+                </div>
                 <div class="card  bg-base-100 shadow-xl text-center space-y-5  py-10">
                     <figure><img src="./images/tax.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="font-extrabold text-3xl eb-gramon text-center">Business Law</h2>
-                      <p class="text-base py-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                      <div class="card-actions justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20 4.0929C11.025 4.0929 3.75 11.3679 3.75 20.3429C3.75 29.3179 11.025 36.5929 20 36.5929C28.975 36.5929 36.25 29.3179 36.25 20.3429C36.25 11.3679 28.975 4.0929 20 4.0929ZM27.1333 21.2262C27.3674 20.9919 27.4989 20.6741 27.4989 20.3429C27.4989 20.0116 27.3674 19.6939 27.1333 19.4596L22.1333 14.4596C22.0189 14.3368 21.8809 14.2382 21.7276 14.1699C21.5742 14.1016 21.4087 14.0649 21.2409 14.0619C21.073 14.0589 20.9063 14.0898 20.7507 14.1527C20.595 14.2156 20.4536 14.3091 20.3349 14.4278C20.2162 14.5465 20.1227 14.6879 20.0598 14.8436C19.9969 14.9992 19.9661 15.1659 19.969 15.3338C19.972 15.5016 20.0087 15.6671 20.077 15.8205C20.1454 15.9738 20.2439 16.1118 20.3667 16.2262L23.2333 19.0929H13.75C13.4185 19.0929 13.1005 19.2246 12.8661 19.459C12.6317 19.6934 12.5 20.0114 12.5 20.3429C12.5 20.6744 12.6317 20.9924 12.8661 21.2268C13.1005 21.4612 13.4185 21.5929 13.75 21.5929H23.2333L20.3667 24.4596C20.2439 24.574 20.1454 24.712 20.077 24.8653C20.0087 25.0187 19.972 25.1842 19.969 25.352C19.9661 25.5199 19.9969 25.6866 20.0598 25.8422C20.1227 25.9979 20.2162 26.1393 20.3349 26.258C20.4536 26.3767 20.595 26.4702 20.7507 26.5331C20.9063 26.596 21.073 26.6268 21.2409 26.6239C21.4087 26.6209 21.5742 26.5842 21.7276 26.5159C21.8809 26.4475 22.0189 26.349 22.1333 26.2262L27.1333 21.2262Z" fill="#B68C5A"/>
-                          </svg>
-                          
-                      </div>
+                        <h2 class="font-extrabold text-3xl eb-gramon text-center">Business Law</h2>
+                        <p class="text-base py-5">There are many variations of passages of Lorem Ipsum available, but
+                            the majority have suffered alteration in some form, by injected humour.</p>
+                        <div class="card-actions justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41"
+                                fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M20 4.0929C11.025 4.0929 3.75 11.3679 3.75 20.3429C3.75 29.3179 11.025 36.5929 20 36.5929C28.975 36.5929 36.25 29.3179 36.25 20.3429C36.25 11.3679 28.975 4.0929 20 4.0929ZM27.1333 21.2262C27.3674 20.9919 27.4989 20.6741 27.4989 20.3429C27.4989 20.0116 27.3674 19.6939 27.1333 19.4596L22.1333 14.4596C22.0189 14.3368 21.8809 14.2382 21.7276 14.1699C21.5742 14.1016 21.4087 14.0649 21.2409 14.0619C21.073 14.0589 20.9063 14.0898 20.7507 14.1527C20.595 14.2156 20.4536 14.3091 20.3349 14.4278C20.2162 14.5465 20.1227 14.6879 20.0598 14.8436C19.9969 14.9992 19.9661 15.1659 19.969 15.3338C19.972 15.5016 20.0087 15.6671 20.077 15.8205C20.1454 15.9738 20.2439 16.1118 20.3667 16.2262L23.2333 19.0929H13.75C13.4185 19.0929 13.1005 19.2246 12.8661 19.459C12.6317 19.6934 12.5 20.0114 12.5 20.3429C12.5 20.6744 12.6317 20.9924 12.8661 21.2268C13.1005 21.4612 13.4185 21.5929 13.75 21.5929H23.2333L20.3667 24.4596C20.2439 24.574 20.1454 24.712 20.077 24.8653C20.0087 25.0187 19.972 25.1842 19.969 25.352C19.9661 25.5199 19.9969 25.6866 20.0598 25.8422C20.1227 25.9979 20.2162 26.1393 20.3349 26.258C20.4536 26.3767 20.595 26.4702 20.7507 26.5331C20.9063 26.596 21.073 26.6268 21.2409 26.6239C21.4087 26.6209 21.5742 26.5842 21.7276 26.5159C21.8809 26.4475 22.0189 26.349 22.1333 26.2262L27.1333 21.2262Z"
+                                    fill="#B68C5A" />
+                            </svg>
+
+                        </div>
                     </div>
-                  </div>
+                </div>
 
             </div>
 
         </section>
 
         <section class="revcew-section ">
+            <div class="m-auto md:max-w-[600px] lg:max-w-[750px] mb-10 md:mb-20 px-8 text-center">
+
+                <h1 class="px-5 eb-gramon text-3xl md:text-5xl font-extrabold lg:leading-[80px] text-center">
+                    What Our Client Say</h1>
+                <p class=" text-base ">There are many variations of passages of Lorem Ipsum available, but the majority
+                    have suffered alteration in some form, by injected humour.</p>
+            </div>
 
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
                     <div class="text-center">
-                        <img src="./images/sujon2.png" alt="" class="w-24 h-24 rounded-[50%] m-auto">
-                        <h1
-                    class="px-5 eb-gramon text-2xl md:text-4xl  font-extrabold lg:leading-[80px] text-center py-8">
-                   Md Sujon Mia</h1>
-                    <p class="text-base">Web Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
-                    </div>
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide4" class="btn btn-circle">❮</a> 
-                    <a href="#slide2" class="btn btn-circle">❯</a>
-                  </div>
-                </div> 
-                <div id="slide2" class="carousel-item relative w-full">
-                    <div class="text-center">
                         <img src="./images/business.png" alt="" class="w-24 h-24 rounded-[50%] m-auto">
                         <h1
-                    class="px-5 eb-gramon text-2xl md:text-4xl  font-extrabold lg:leading-[80px] text-center py-8">
-                   Md Sujon Mia</h1>
-                    <p class="text-base">Web Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                            class="px-5 eb-gramon text-2xl md:text-4xl  font-extrabold lg:leading-[80px] text-center py-8">
+                            Md Sujon Mia</h1>
+                        <p class="text-base">Web Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                            has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
+                            old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up
+                            one of the more obscure Latin words, consectetur.</p>
                     </div>
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide1" class="btn btn-circle">❮</a> 
-                    <a href="#slide3" class="btn btn-circle">❯</a>
-                  </div>
-                </div> 
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <div class="text-center">
+                        <img src="./images/sujon2.png" alt="" class="w-24 h-24 rounded-[50%] m-auto">
+                        <h1
+                            class="px-5 eb-gramon text-2xl md:text-4xl  font-extrabold lg:leading-[80px] text-center py-8">
+                            Md Sujon Mia</h1>
+                        <p class="text-base">Web Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                            has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
+                            old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up
+                            one of the more obscure Latin words, consectetur.</p>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
                 <div id="slide3" class="carousel-item relative w-full">
                     <div class="text-center">
                         <img src="./images/sujon3.png" alt="" class="w-24 h-24 rounded-[50%] m-auto">
                         <h1
-                    class="px-5 eb-gramon text-2xl md:text-4xl  font-extrabold lg:leading-[80px] text-center py-8">
-                   Md Sujon Mia</h1>
-                    <p class="text-base">Web Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                            class="px-5 eb-gramon text-2xl md:text-4xl  font-extrabold lg:leading-[80px] text-center py-8">
+                            Md Sujon Mia</h1>
+                        <p class="text-base">Web Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                            has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
+                            old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up
+                            one of the more obscure Latin words, consectetur.</p>
                     </div>
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide2" class="btn btn-circle">❮</a> 
-                    <a href="#slide4" class="btn btn-circle">❯</a>
-                  </div>
-                </div> 
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
                 <div id="slide4" class="carousel-item relative w-full">
                     <div class="text-center">
                         <img src="./images/sujon4.png" alt="" class="w-24 h-24 rounded-[50%] m-auto">
                         <h1
-                    class="px-5 eb-gramon text-2xl md:text-4xl  font-extrabold lg:leading-[80px] text-center py-8">
-                   Md Sujon Mia</h1>
-                    <p class="text-base">Web Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                            class="px-5 eb-gramon text-2xl md:text-4xl  font-extrabold lg:leading-[80px] text-center py-8">
+                            Md Sujon Mia</h1>
+                        <p class="text-base">Web Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                            has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
+                            old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up
+                            one of the more obscure Latin words, consectetur.</p>
                     </div>
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide3" class="btn btn-circle">❮</a> 
-                    <a href="#slide1" class="btn btn-circle">❯</a>
-                  </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
                 </div>
-              </div>
+            </div>
 
         </section>
+
+        <!-- frequensy-sectuin -->
+        <section class="freaction py-10 md:py-24">
+            <div class="m-auto md:max-w-[600px] lg:max-w-[750px] mb-10 md:mb-20 md:px-8 text-center">
+
+                <h1
+                    class="px-5 eb-gramon text-3xl md:text-[40px] mb-6 md:mb-10 font-extrabold lg:leading-[80px] text-center">
+                    Frequently Asked Any Questions</h1>
+                <p class=" text-base ">There are many variations of passages of Lorem Ipsum available, but the majority
+                    have suffered alteration in some form, by injected humour.</p>
+            </div>
+
+            <div class="flex flex-col md:flex-row md:gap-16 gap-8 items-center">
+                <div class="flex-1">
+                    <div class="collapse collapse-arrow bg-base-200">
+                        <input type="radio" name="my-accordion-2" checked="checked" />
+                        <div class="collapse-title text-xl font-medium">
+                            Are application fee waivers available?
+                        </div>
+                        <div class="collapse-content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dicta iste sit saepe eos
+                                sint. Quisquam ipsam blanditiis recusandae dicta quibusdam pariatur eligendi
+                                consequuntur officiis enim nulla vero, omnis impedit! Veritatis tempora asperiores,
+                                enim, architecto atque vero id magni cumque minus rem reprehenderit repudiandae ratione
+                                culpa aperiam eveniet iusto quo soluta. Nisi hic quam doloremque vitae quos non dolor
+                                magnam! Nesciunt iure, cupiditate quasi quam nemo quis reprehenderit ipsa pariatur illum
+                                reiciendis asperiores perferendis molestiae dolorem ipsum mollitia ab repudiandae quos
+                                sed aperiam. Iusto explicabo facere aperiam cupiditate quia? Doloribus voluptatibus
+                                necessitatibus nobis assumenda doloremque quasi dolorem, vero soluta eligendi!</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-base-200">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">
+                            Click to open this one and close others
+                        </div>
+                        <div class="collapse-content">
+                            <p>hello</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-arrow bg-base-200">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">
+                            Click to open this one and close others
+                        </div>
+                        <div class="collapse-content">
+                            <p>hello</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-1">
+                    <img src="./images/faq.png" alt="" class="w-full">
+                </div>
+            </div>
+        </section>
+        <!-- contracrt -->
+        <section class="contract">
+            <div class="m-auto md:max-w-[600px] lg:max-w-[750px] mb-10 md:mb-20 md:px-8 text-center">
+
+                <h1 class="px-5 eb-gramon text-3xl md:text-[40px] mb-6 font-extrabold lg:leading-[80px] text-center">
+                    Contact With Us</h1>
+                <p class=" text-base ">There are many variations of passages of Lorem Ipsum available, but the majority
+                    have suffered alteration in some form, by injected humour.</p>
+            </div>
+
+            <div class="flex flex-col md:flex-row md:gap-16 gap-8 md:items-center">
+                <div class="flex-1">
+                    <div class="grid grid-cols-1 md:gap-0 gap-6 md:grid-cols-2">
+                        <div class="text-center bg-[#F3F3F3] py-8 px-5 border">
+                            <img src="./images/location.png" alt="" class="m-auto">
+                            <h4 class="text-2xl font-extrabold py-5">Address</h4>
+                            <p class="text-base leading-8">A108 Adam Street,<br>
+                                New York, NY 535022</p>
+
+                        </div>
+
+                        <div class="text-center bg-[#F3F3F3] py-8 px-5 border">
+                            <img src="./images/call.png" alt="" class="m-auto">
+                            <h4 class="text-2xl font-extrabold py-5">Call</h4>
+                            <p class="text-base leading-8">+88 01750 00 00 00 <br>
+
+                                +88 01750 00 00 00</p>
+                        </div>
+                        <div class="text-center bg-[#F3F3F3] py-8 px-5 border">
+                            <img src="./images/email.png" alt="" class="m-auto">
+                            <h4 class="text-2xl font-extrabold py-5">Email Us</h4>
+                            <p class="text-base leading-8">info@gmail.com <br>
+                                info@gmail.com</p>
+                        </div>
+                        <div class="text-center bg-[#F3F3F3] py-8 px- border">
+                            <img src="./images/time.png" alt="" class="m-auto">
+                            <h4 class="text-2xl font-extrabold py-5">Working Hours</h4>
+                            <p class="text-base leading-8">Mon-Fri: 9AM to 5PM <br>
+                                Sunday: 9AM to 1 PM</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="flex-1">
+                    <div class="card shrink-0  shadow-2xl bg-base-100 m-auto">
+                        <form class="card-body ">
+                            <div class="form-control space-y-5">
+                                <div class="form-control">
+                                    <input type="text" placeholder="Your name" class="input input-bordered" required />
+                                </div>
+                                <div class="form-control">
+                                    <input type="email" placeholder="email" class="input input-bordered" required />
+                                </div>
+                                <div class="form-control">
+                                    <input type="text" placeholder="Subject" class="input input-bordered" required />
+                                </div>
+
+                                <div class="form-control">
+                                    <input type="password" placeholder="set-password" class="input input-bordered"
+                                        required />
+                                </div>
+                                <div class="form-control">
+                                    <input type="password" placeholder="confame-password" class="input input-bordered"
+                                        required />
+                                </div>
+                                <textarea class="textarea textarea-primary" placeholder="Bio"></textarea>
+                                <div class="form-control mt-6">
+                                    <button class="btn btn-primary bg-[#B68C5A]">Login</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+        </section>
     </main>
+
+
+    <footer class="bg-base-200">
+
+        <section class="footer containe m-auto max-w-[1200px] box-border px-8 py-14 md:py-24 ">
+            <div class="flex md:flex-row flex-col p-0 md:p-10 pb-5 justify-between w-[100%] gap-[4%]">
+                <div class="w-[100%] md:w-[38%] grid-cols-1 lg:grid-cols-2 grid gap-10">
+                    <nav>
+                        <header class=""><img src="./images/logo2.png" alt="" class="pb-5"></header>
+                        There are many variations of<br> passages of Lorem Ipsum <br> available, but the majority
+                        have<br>
+                        suffered alteration in some <br>form, by injected humour.
+                    </nav>
+
+                    <nav>
+                        <h4 class="text-2xl font-extrabold md:pb-5 pb-2">Usefull Link</h4>
+                        <a class="link link-hover">About us</a>
+                        <a class="link link-hover">Contact</a>
+                        <a class="link link-hover">Jobs</a>
+                        <a class="link link-hover">Press kit</a>
+                    </nav>
+
+                </div>
+
+                <div class="w-[100%] md:w-[58%] grid gap-10 grid-cols-1 lg:grid-cols-2 mt-8 md:mt-0">
+                    <nav>
+                        <h4 class="text-2xl font-extrabold pb-5">Contact Now</h4>
+                        <a class="link link-hover">555 4th 5t NW, Washington <br>
+                            DC 20530, United States</a>
+                        <a class="link link-hover">+88 01750 000 000 <br>
+                            +88 01750 000 000</a>
+                        <a class="link link-hover">info@gmail.com <br>
+                            info@gmail.com</a>
+                    </nav>
+
+                    <form>
+                        <h4 class="text-2xl font-extrabold pb-5">Subscribe</h4>
+                        <p>Subscribe for our latest & Articles. <br> We Won’t Give You Spam Mails</p>
+                        <fieldset class="form-control w-80">
+                            <label class="label">
+                                <span class="label-text">Enter your email address</span>
+                            </label>
+                            <div class="join">
+                                <input type="text" placeholder="username@site.com"
+                                    class="input input-bordered join-item focus:outline-none w-full" />
+                                <button class="btn btn-primary join-item"><i
+                                        class="fa-brands fa-telegram text-[30px]"></i></button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            </div>
+            </div>
+
+        </section>
+        <aside>
+            <p class="text-center pb-10">Copyright © 2024 - All right reserved by ACME Industries Ltd <span>designer By
+                    <span class="text-[20px] font-bold text-red-600">MD SUJON</span> </span></p>
+        </aside>
+
+    </footer>
 
 </body>
 
